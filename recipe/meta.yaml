@@ -44,7 +44,7 @@ requirements:
     - r-reshape2
     - r-sp
     - libblas
-    - tbb-devel                   # [win]
+    - tbb-devel                    # [not win]
   run:
     - r-base
     - r-ggplot2
